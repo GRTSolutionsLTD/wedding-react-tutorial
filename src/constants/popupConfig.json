@@ -1,0 +1,23 @@
+{
+    "message": {
+      "register":{
+        "good":"good",
+        "exist":"exist"
+    },
+      "matcher":{
+
+         "succeeded":" got married",
+         "failed":"Soory try again........",
+         "detailsWrong":"You need to make match between male & feMale",
+         "falseDorYesharim":"falseDorYesharim",
+         "wrongWomenName":"wrong Women Name",
+         "wrongMenName":"wrong Men Name",
+         "wrongMatchBetweenPair":"wrong Match Between Pair",
+         "wrongMatchBetweenCommunity":"wrong Match Between Community",
+         "wrongMothersName":"wrongMothersName",
+         "wrongFathersName":"wrongFathersName",
+         "manWantMoreMoney":"manWantMoreMoney",
+         "womanWantMoreMoney":"womanWantMoreMoney"
+    }
+  }
+ }

@@ -1,0 +1,33 @@
+
+$background-color:$border-color-red;
+$width:630px;
+.details{
+    @mixin div($width, $color) {
+        width: $width;
+        border:2px solid $color;
+    }
+    .Dropdown-control{
+        @include div($width, #6868ec);
+    }
+    .form-control{
+        @include div($width,$background-color);
+    }
+}
+.sign-in-drop-down-details .Dropdown-control {
+    width: 630.5px;
+    margin-left: -14px;
+    margin-top: -8.5px;
+}
+.sign-in-drop-down-details .Dropdown-menu {
+    left: 35px;
+    width: 628px;
+}
+.sign-in-drop-down-details .Dropdown-control {
+    width: 630.5px;
+    margin-left: -14px;
+    margin-top: -8.5px;
+}
+.sign-in-drop-down-details .Dropdown-menu {
+    left: 35px;
+    width: 628px;
+}
