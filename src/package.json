@@ -5,6 +5,7 @@
   "scripts": {
     "prestart": "npm run build:css",
     "start": "npm run watch:css && react-scripts start",
+    "json": "json-server --watch src/user.json --port 3004",
     "build": "npm run build:css && react-scripts build",
     "build:css": "node-sass-chokidar src/styles -o src/styles",
     "watch:css": "node-sass-chokidar src/styles -o src/styles --watch --recursive",
