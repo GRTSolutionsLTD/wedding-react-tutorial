@@ -13,7 +13,7 @@ const matcher = (state = initialState, action) => {
       return {
         ...state, data: [...action.data]
       }
-      case 'GET_MALES':
+    case 'GET_MALES':
       return {
         ...state, men: getListBySex(state.data, eSex.Male.value)
 

@@ -16,6 +16,12 @@ const Navigation = ({ className, buttonClassName }) =>
     <Link className={buttonClassName} to="details">
     Details
     </Link>
+    <Link className={buttonClassName} to="meetings">
+    Meetings
+    </Link>
+    <Link className={buttonClassName} to="addMeeting">
+     Add Meeting
+    </Link>
   </nav>
 
 Navigation.defaultProps = {

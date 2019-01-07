@@ -1,7 +1,8 @@
 {
     "actions": {
       "getUsers": "data/",
-      "updateMatchers": "data/"
+      "updateMatchers": "data/",
+      "getMeetings": "meetings/"
     },
     "baseUrl": "http://localhost:3004/"
   }

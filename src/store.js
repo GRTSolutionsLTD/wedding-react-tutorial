@@ -5,8 +5,11 @@ import todos from './reducers/todos';
 import visibilityFilter from './reducers/visibilityFilter';
 import detailsResucer from './reducers/detailsReducer';
 import register from './reducers/registerReducer';
-
+import meeting from './reducers/meetingsReducer';
+import addMeeting from './reducers/addMeetingReducer';
 import matcher from './reducers/matcher';
+
+
 export function configureStore(history, initialState) {
 
     const reducer = combineReducers({
@@ -15,6 +18,8 @@ export function configureStore(history, initialState) {
         detailsResucer,
         register,
         matcher,
+        meeting,
+        addMeeting,
         routing: routerReducer
     })
 

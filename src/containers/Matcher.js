@@ -153,43 +153,7 @@ export class Matcher extends React.Component {
             isOpenPopap: false
         });
     
-    // getContentPopup = () => {
-    //     
-    //     if (this.props.isManPaylodSucceeded == null && this.props.isWomanPaylodSucceeded == null)
-    //      {   this.setState({ popupContent: popupConfig.message.matcher.detailsWrong });}
-    //     else if(this.state.doryesharim==false){
-    //             this.setState({ popupContent: popupConfig.message.matcher.falseDorYesharim });
-    //         }
-    //     else if (this.props.isManPaylodSucceeded == true && this.props.isWomanPaylodSucceeded == true) {
-    //         this.setState({ popupContent: man.firstName + "  &&  " + woman.firstName + popupConfig.message.matcher.succeeded });
-    //     }
-    //     else {
-    //         this.setState({ popupContent: popupConfig.message.matcher.failed });
-    //     }
-    //     this.openPopup();
-    // }
-
-    // validateMatcher = () => {
-    //    return this.state.matcher.manIndex != -1 && this.state.matcher.womanIndex != -1;
-    // }
-    // setMatcherData = () => {
-    //     console.log(this.props)
-    //     console.log(this.props.men)
-    //     ;
-    //     //this.props.getMales();
-    //    // this.props.getFemales();
-    //     let matcher = {
-    //         manIndex: -1,
-    //         womanIndex: -1
-    //     }
-    //     this.setState({ matcher });
-    //     this.setState({ selectedMaleFullName: "", selectedWomanFullName: "" });
-    // }
-    // getUserFullName = (user) => user.firstName + " " + user.lastName;
-    // onChangeDORYESHARIM=(event)=>{
-    //     this.state.doryesharim==true?this.state.doryesharim=false:this.state.doryesharim=true;
-    //     console.log(this.state.doryesharim);
-    //    }
+    
     }
     render() {
         return (
@@ -255,3 +219,46 @@ const mapDispatchToProps = (dispatch) => {
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(Matcher)
+
+
+
+
+
+
+// getContentPopup = () => {
+    //     
+    //     if (this.props.isManPaylodSucceeded == null && this.props.isWomanPaylodSucceeded == null)
+    //      {   this.setState({ popupContent: popupConfig.message.matcher.detailsWrong });}
+    //     else if(this.state.doryesharim==false){
+    //             this.setState({ popupContent: popupConfig.message.matcher.falseDorYesharim });
+    //         }
+    //     else if (this.props.isManPaylodSucceeded == true && this.props.isWomanPaylodSucceeded == true) {
+    //         this.setState({ popupContent: man.firstName + "  &&  " + woman.firstName + popupConfig.message.matcher.succeeded });
+    //     }
+    //     else {
+    //         this.setState({ popupContent: popupConfig.message.matcher.failed });
+    //     }
+    //     this.openPopup();
+    // }
+
+    // validateMatcher = () => {
+    //    return this.state.matcher.manIndex != -1 && this.state.matcher.womanIndex != -1;
+    // }
+    // setMatcherData = () => {
+    //     console.log(this.props)
+    //     console.log(this.props.men)
+    //     ;
+    //     //this.props.getMales();
+    //    // this.props.getFemales();
+    //     let matcher = {
+    //         manIndex: -1,
+    //         womanIndex: -1
+    //     }
+    //     this.setState({ matcher });
+    //     this.setState({ selectedMaleFullName: "", selectedWomanFullName: "" });
+    // }
+    // getUserFullName = (user) => user.firstName + " " + user.lastName;
+    // onChangeDORYESHARIM=(event)=>{
+    //     this.state.doryesharim==true?this.state.doryesharim=false:this.state.doryesharim=true;
+    //     console.log(this.state.doryesharim);
+    //    }
